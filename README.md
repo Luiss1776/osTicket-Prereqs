@@ -106,3 +106,13 @@ DOWNLOADING osTicket
  
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/3XUv4JI.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+
+ 
+</p>
+<br />
