@@ -60,15 +60,6 @@ Go to c windows c drive tab. Right click and open new folder and call it PHP. fr
 </p>
 <br />
 
-<p>
-<img src="="https://i.imgur.com/PhVQhrC.png"/>
-</p>
-<p>
-Vc-Redist Download
-
-from installation files, download and install the VC_Redist. once its installed go back to downloads from my computer and click the file. Agree with any terms and agreements and install.
-</p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
