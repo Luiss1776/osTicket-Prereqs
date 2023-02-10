@@ -43,7 +43,7 @@ We will now download the "PHP manager for IIS" by using the link provided above.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pmwpPEu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 REWRITE MODULE 
