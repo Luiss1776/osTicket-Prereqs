@@ -53,7 +53,7 @@ Go back to link provided. Click link to install rewrite module and download it s
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ws1wlka.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 CREATING DIRECTORY C:\PHP 
@@ -64,7 +64,7 @@ Go to c windows c drive tab. Right click and open new folder and call it PHP. fr
 
 
 <p>
-<img src="https://i.imgur.com/PhVQhrC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Gx8ryBV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 VC_REDIST DOWNLOAD
