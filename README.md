@@ -46,7 +46,9 @@ We will now download the "PHP manager for IIS" by using the link provided above.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-INSERT STEPS FOR REWRITE MODULE HERE
+REWRITE MODULE 
+
+Go back to link provided. Click link to install rewrite module and download it should open in a new browser automatically. Press Download anyways once it’s finished Loading. Once installed go to downloads tab in windows Find rewrite module  in the downloads tab. Accept with terms, & install, press finished 
 </p>
 <br />
 
@@ -78,6 +80,16 @@ From the installation file link above, click download and install VC_Redist. Onc
 <p>
 Downloading MySQL 
   
-Insert Steps about MySQL download here.
+From the installation files, download and install my SQL 5.5.62. Go back to downloads & click the MySQL file. Click finish, press next, click standard configuration, click next until you get to password. Your username will be Root, Then Create a password. (Password) Press next once done and then execute 
+My SQL CREATES THE DATABASE FOR YOU TO STORE THE TICKETS ON. press finish when done. Opening IIS As admin. Register PHP from within IIS
+INSTALL OSTicket
+Open windows Tab bottom left 
+Right Click IIS run as admin 
+Once opened you will see PHP manager 
+Click it, you will see PHP is not enabled 
+Click register new PHP version 
+Click browse (The 3 dots button) 
+Open PHP folder, then click PHP-CGI
+Press done or Ok 
 </p>
 <br />
