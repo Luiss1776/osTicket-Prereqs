@@ -96,3 +96,13 @@ Open PHP folder, then click PHP-CGI
 Press done or Ok 
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/ws1wlka.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+DOWNLOADING osTicket 
+
+ 
+</p>
+<br />
