@@ -98,7 +98,7 @@ Press done or Ok
 <br />
 
 <p>
-<img src="https://i.imgur.com/ws1wlka.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9Bc5nfC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 DOWNLOADING osTicket 
