@@ -103,15 +103,20 @@ Press done or Ok
 <p>
 DOWNLOADING osTicket 
 
- 
+Download OsTicket from the installation files 
+Copy and extract the upload folder into the c:\inetpub\wwwroot, rename “upload” to osTicket 
+Opening the downloads folder, open two file explorer folders next to each other,
+On one of the  file explorer folders, you will want to open, This Pc, followed by Windows C:, Inetpub, and then wwwroot on the other File explorer tab you will want to open, this PC, Downloads, osTicket, and finally drag the “Upload” folder over to the other file Explorer tab to create a new file into the wwwroot. Next rename the upload file from wwwroot to osTicker. Once rename go back to IIS and restart the server  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/3XUv4JI.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/l7MPg1A.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Configuring the IIS permissions. 
+  
+  Go to sites inside IIS default. Default OsTicket On the left hand side, Expand sites, default, and then is ticket, on the right we will click browse *80, once clicked you will be redirected to the OsTicket web browser. Next step notice extensions are not enabled with the red  ❌ , X’s. so we’re going to enable these permissions inside of IIS and make them work. Go back to IIS, go to sites, default web site, OsTicket and click the php manager
 
  
 </p>
