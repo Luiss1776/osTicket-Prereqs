@@ -80,8 +80,8 @@ From the installation file link above, click download and install VC_Redist. Onc
 <p>
 Downloading MySQL 
   
-From the installation files, download and install my SQL 5.5.62. Go back to downloads & click the MySQL file. Click finish, press next, click standard configuration, click next until you get to password. Your username will be Root, Then Create a password. (Password) Press next once done and then execute 
-My SQL CREATES THE DATABASE FOR YOU TO STORE THE TICKETS ON. press finish when done. 
+From the installation files, download and install my SQL 5.5.62. Go back to downloads & click the MySQL file. Click finish, press next, click standard configuration, click next until you get to password. Your username will be Root, Then Create a password. (Password) Press next once done and then execute.
+(My SQL CREATES A DATABASE FOR YOU TO STORE TICKETS ON for osTicket.
 
 CONFIGURATION OF IIS IS BELOW  
 Opening IIS As admin. Register PHP from within IIS
