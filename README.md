@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/h4d50AY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-By enabling IIS, We will first hit the bottom left windows tab & open the Conrtroll tab. We will then go to programs and Click, "Turn wimndows feature on or off." Once Clicking, find the, "Internet Information Services, expand it, Then expand the world wide web tab. Finally, Expand application Developer tab. Finally, Check the CGI button & Press Ok. You will need CGI to download PHP Manager. The PHP manager is a back end web programming language that allows osTicket to run off a web browser. 
+- By enabling IIS, We will first hit the bottom left windows tab & open the Conrtroll section. We will then go to programs and click, "Turn windows feature on or off." Once Clicking, find the, "Internet Information Services, expand it, Then expand the world wide web tab. Finally, Expand application Developer tab. Finally, Check the CGI button & Press Ok. You will need CGI to download the PHP Manager. The PHP manager is a back end web programming language that allows osTicket to run off a web browser. 
   
 We will now download the "PHP manager for IIS" by using the link provided above. Start by clicking, "Download PHP manager," it will automatically open a new web browser. Hit the download button. When done, the file will be in your download tabs in the c-drive of my computer. Download the PHP manager file, and agree with all the terms. We have now downloaded the PHP manager into our operating system.  
 </p>
