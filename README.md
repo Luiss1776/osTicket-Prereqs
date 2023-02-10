@@ -6,26 +6,26 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
+<h2> All Links Provided by: Josh Madakor 🧑‍💻</h2>
 
-- ### [Link To Install osTicket with Prerequisites](https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/edit#)
+- ### [Links for installing Prerequisites for osTicket 😊](https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/edit#)
 
-<h2>Environments and Technologies Used</h2>
+<h2>Environments and Technologies Used 💻</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used </h2>
+<h2>Operating Systems Used  </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10 🪟</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>List of Prerequisites 📝</h2>
 
 - Enable Internet Information Services (IIS)
 - Install Web platform Installer 
 - Install My SQL set up username and passwords
-- Instal C++ Redistributable
+- Install C++ Redistributable
 - Configure Permissions & install Os Ticket 
 
 <h2>Installation Steps</h2>
