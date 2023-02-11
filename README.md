@@ -141,8 +141,11 @@ Final step For clean Up.
 
 For clean up we will delete the c:\inetpub\wwwroot\osTicket\setup. By doing this we will go into file explorer tab in my windows. Scroll to This PC, open windows C, open inetpub, open wwwroot, open osticket, and right click the setup folder and click delete. Lastly, we will set the permissions back to “read only” in the ost-config.PHP file. by doing this, we will go into the file explorer, go into this PC, windows C, inetpub, wwwroot, osTicket, the include folder, and right click on the OST-Config.php file. Go to properties, and then security. Scroll down to the advance button and go to the "everyone file" and press edit. Once done, uncheck the boxes, Full control, modify and write. Press ok, apply and then ok.
 
-We have now, fully installed the prerequisite for osTicket. 
-
+We have now, fully installed the prerequisite for osTicket. 😊 
+  
+Admin Login Link: http://localhost/osTicket/scp/login.php
+  
+End user link to create tickets for osTicket: http://localhost/osTicket/
   
 </p>
 <br />
