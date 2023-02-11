@@ -116,7 +116,13 @@ On one of the  file explorer folders, you will want to open, This Pc, followed b
 <p>
 Configuring the IIS permissions. 
   
-  Go to sites inside IIS default. Default OsTicket On the left hand side, Expand sites, default, and then is ticket, on the right we will click browse *80, once clicked you will be redirected to the OsTicket web browser. Next step notice extensions are not enabled with the red  ❌ , X’s. so we’re going to enable these permissions inside of IIS and make them work. Go back to IIS, go to sites, default web site, OsTicket and click the php manager
+Go to sites inside IIS default. Default OsTicket On the left hand side, Expand sites, default, and then is ticket, on the right we will click browse *80, once clicked you will be redirected to the OsTicket web browser. Next step notice extensions are not enabled with the red  ❌ , X’s. so we’re going to enable these permissions inside of IIS and make them work. Go back to IIS, go to sites, default web site, OsTicket and click the php manager
+  
+Double click PHP manager, bottom link click enable or disable an extension highlighted in blue. Now we are going to enable all of these PHP extensions. Scroll down until you see a php_imap. Click on it, and at the top right press enable. We will do the same for php_intl.dll and PHP_opache.dll. Once done go back to osticket web browser and refresh it. It Should still have two red X marks for the bottom two everything else should have green check marks. 
+
+Finally, We will now rename the ost-config.php file! We will go to file explorer at the bottom of the windows bar. Go into the wwwroot, click osTicket, scroll down to the include folder. Open it and scroll down to the ost-sampleconfig.php folder. We will rename this folder and just simply erase the sample part
+ 
+
 
  
 </p>
