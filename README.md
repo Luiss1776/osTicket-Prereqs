@@ -120,8 +120,11 @@ Go to sites inside IIS default. Default OsTicket On the left hand side, Expand s
   
 Double click PHP manager, bottom link click enable or disable an extension highlighted in blue. Now we are going to enable all of these PHP extensions. Scroll down until you see a php_imap. Click on it, and at the top right press enable. We will do the same for php_intl.dll and PHP_opache.dll. Once done go back to osticket web browser and refresh it. It Should still have two red X marks for the bottom two everything else should have green check marks. 
 
-Finally, We will now rename the ost-config.php file! We will go to file explorer at the bottom of the windows bar. Go into the wwwroot, click osTicket, scroll down to the include folder. Open it and scroll down to the ost-sampleconfig.php folder. We will rename this folder and just simply erase the sample part
- 
+Furthermore, We will now rename the ost-config.php file! We will go to file explorer at the bottom of the windows bar. Go into the wwwroot, click osTicket, scroll down to the include folder. Open it and scroll down to the ost-sampleconfig.php folder. We will rename this folder and just simply erase the sample part
+
+Finally, We will now  adjust the permissions, so anybody can adjust the file the way they want too. We will right click the Ost-config file and go to properties, go to security, go to advance, and then will just disable inheritance so it stops inheriting permissions from its parent, and then will remove all permissions and we’re going to add permissions. Click select a principal,. In the box we will type “everyone” click check names and press OK.  Once done we will the check mark box next to, “full control” and press ok, apply ok and ok. Ost-config now everyone has permissions to it.
+
+
 
 
  
