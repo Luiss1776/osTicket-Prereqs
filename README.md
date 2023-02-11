@@ -124,9 +124,14 @@ Furthermore, We will now rename the ost-config.php file! We will go to file exp
 
 Finally, We will now  adjust the permissions, so anybody can adjust the file the way they want too. We will right click the Ost-config file and go to properties, go to security, go to advance, and then will just disable inheritance so it stops inheriting permissions from its parent, and then will remove all permissions and we’re going to add permissions. Click select a principal,. In the box we will type “everyone” click check names and press OK.  Once done we will the check mark box next to, “full control” and press ok, apply ok and ok. Ost-config now everyone has permissions to it.
 
+</p>
+<br />
 
-
-
- 
+<p>
+<img src="https://i.imgur.com/ovL9d46.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+osTicket signup
+  
 </p>
 <br />
