@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/h4d50AY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Enabling IIS 
+ENABLING IIS
 
 By enabling IIS, We will first hit the bottom left windows tab & open the Control section. We will then go to programs and click, "Turn windows feature on or off." Once Clicking, find the "Internet Information Services, expand it, Then expand the world wide web tab. Finally, Expand the application Developer tab. Finally, Check the CGI button & Press Ok. You will need CGI to download the PHP Manager. The PHP manager is a back-end web programming language that allows osTicket to run off a web browser. 
   
@@ -129,14 +129,14 @@ Finally, We will now adjust the permissions, so anybody can adjust the file the 
 <img src="https://i.imgur.com/ovL9d46.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-osTicket signup
+osTicket SIGN-UP
   
 
 Fill out any information needed to make an osTicket account. Make sure to write down the osTicket information you may fill out to create any accounts. Before we continue, we need to set up our database in Heidi SQL. 
 
 In the files download link above, we will download Heidi SQL. Once downloaded you will continue to press next until the final installation. Once installed we will create a new database for Heidi by clicking the green tab at the bottom left of the Heidi browser. Sign in with your, "mySQL username' and "password" created from mySQL in the previous steps and press open. We will need to create a new database for osTicket. Inside the HeidiSQL on the top left, right-click the “unnamed” tab and scroll down to 'create new", and click “database.”  We will name the new database, "osTicket" and press ok. Your new database is now ready to go and to be typed into the osTicket web browser page of osTicket. When done press “install now” and your account will be made for osTicket. 
 
-Final step For clean Up. 
+FINAL STEPS FOR CLEANUP
 
 For cleanup, we will delete the c:\inetpub\wwwroot\osTicket\setup. By doing this we will go into the file explorer tab in my windows. Scroll to This PC, open windows C, open inetpub, open wwwroot, open osTicket, right-click the setup folder, and click delete. Lastly, we will set the permissions back to “read-only” in the ost-config.PHP file. Once done, we will go into the file explorer tab, go into this PC, windows C, inetpub, wwwroot, osTicket, the include folder, and right-click on the OST-Config.php file. Go to properties, and then security. Scroll down to the advance button and go to the "everyone file" and press edit. Once done, uncheck the boxes, Full control, modify and write. Press ok, apply, and then ok.
 
