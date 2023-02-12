@@ -85,16 +85,16 @@ From the installation files, download and install my SQL 5.5.62. Go back to down
 
 CONFIGURATION OF IIS IS BELOW  
   
-Opening IIS As admin. Register PHP from within IIS
-INSTALL OSTicket
-Open windows Tab bottom left 
-Right Click IIS run as admin 
-Once opened you will see PHP manager 
-Click it, you will see PHP is not enabled 
-Click register new PHP version 
-Click browse (The 3 dots button) 
-Open PHP folder, then click PHP-CGI
-Press done or Ok 
+Opening IIS As admin. Register PHP from within IIS,
+INSTALL OSTicket,
+Open windows Tab bottom left,
+Right Click IIS to run as admin, 
+Once opened you will see the PHP manager,
+Click it, you will see PHP is not enabled,
+Click register new PHP version,
+Click browse (The 3 dots button),
+Open the PHP folder, then click PHP-CGI,
+Press done or Ok. 
 </p>
 <br />
 
@@ -104,10 +104,7 @@ Press done or Ok
 <p>
 DOWNLOADING osTicket 
 
-Download OsTicket from the installation files 
-Copy and extract the upload folder into the c:\inetpub\wwwroot, rename “upload” to osTicket 
-Opening the downloads folder, open two file explorer folders next to each other,
-On one of the  file explorer folders, you will want to open, This Pc, followed by Windows C:, Inetpub, and then wwwroot on the other File explorer tab you will want to open, this PC, Downloads, osTicket, and finally drag the “Upload” folder over to the other file Explorer tab to create a new file into the wwwroot. Next rename the upload file from wwwroot to osTicker. Once rename go back to IIS and restart the server  
+Download osTicket from the installation files. Copy and extract the upload folder into the c:\inetpub\wwwroot, and rename the “upload file” to "osTicket. Opening the downloads folder, open two file explorer folders next to each other. On one of the file explorer folders, you will want to open, This Pc, followed by Windows C:, Inetpub, and then wwwroot. On the other File explorer tab you will want to open, this PC, Downloads, osTicket, and drag the “Upload” folder over to the other file Explorer tab to create a new file into the wwwroot. Next, rename the upload file from wwwroot to osTicket. Once renamed, go back to IIS and restart the server.
 </p>
 <br />
 
@@ -117,13 +114,13 @@ On one of the  file explorer folders, you will want to open, This Pc, followed b
 <p>
 Configuring the IIS permissions. 
   
-Go to sites inside IIS default. Default OsTicket On the left hand side, Expand sites, default, and then is ticket, on the right we will click browse *80, once clicked you will be redirected to the OsTicket web browser. Next step notice extensions are not enabled with the red  ❌ , X’s. so we’re going to enable these permissions inside of IIS and make them work. Go back to IIS, go to sites, default web site, OsTicket and click the php manager
+GGo to sites inside IIS default. Default osTicket On the left-hand side. Expand sites, default, and then the osTicket, on the right we will click browse *80. Once clicked you will be redirected to the osTicket web browser. Next step, notice extensions are not enabled with the red  ❌ , X’s. so we’re going to enable these permissions inside of IIS and make them work. Go back to IIS, go to sites, default website, OsTicket, and click the PHP manager
   
-Double click PHP manager, bottom link click enable or disable an extension highlighted in blue. Now we are going to enable all of these PHP extensions. Scroll down until you see a php_imap. Click on it, and at the top right press enable. We will do the same for php_intl.dll and PHP_opache.dll. Once done go back to osticket web browser and refresh it. It Should still have two red X marks for the bottom two everything else should have green check marks. 
+Double click PHP manager, bottom link click to enable or disable an extension highlighted in blue. Now we are going to enable all of these PHP extensions. Scroll down until you see a php_imap. Click on it, and at the top right press enable. We will do the same for php_intl.dll and PHP_opache.dll. Once done go back to the osticket web browser and refresh it. It Should still have two red X marks for the bottom two everything else should have green check marks. 
 
-Furthermore, We will now rename the ost-config.php file! We will go to file explorer at the bottom of the windows bar. Go into the wwwroot, click osTicket, scroll down to the include folder. Open it and scroll down to the ost-sampleconfig.php folder. We will rename this folder and just simply erase the sample part
+Furthermore, We will now rename the ost-config.php file! We will go to file explorer at the bottom of the windows bar. Go into the wwwroot, click osTicket, and scroll down to the include folder. Open it and scroll down to the ost-sampleconfig.php folder. We will rename this folder and just simply erase the sample part
 
-Finally, We will now  adjust the permissions, so anybody can adjust the file the way they want too. We will right click the Ost-config file and go to properties, go to security, go to advance, and then will just disable inheritance so it stops inheriting permissions from its parent, and then will remove all permissions and we’re going to add permissions. Click select a principal,. In the box we will type “everyone” click check names and press OK.  Once done we will the check mark box next to, “full control” and press ok, apply ok and ok. Ost-config now everyone has permissions to it.
+Finally, We will now adjust the permissions, so anybody can adjust the file the way they want to. We will right-click the Ost-config file and go to properties, go to security, go to advance, and then will just disable inheritance so it stops inheriting permissions from its parent, and then will remove all permissions and we’re going to add permissions. Click Select a principal. In the box, we will type “everyone” click check names, and press OK.  Once done we will the check mark box next to, “full control” and press ok, apply ok, and ok. Ost-config now everyone has permission to it.
 
 </p>
 <br />
