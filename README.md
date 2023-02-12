@@ -58,7 +58,7 @@ Go back to the link provided. Click the link to install the rewrite module and d
 <p>
 CREATING DIRECTORY C:\PHP 
 
-Go to c windows c drive tab. Right click and open new folder and call it PHP. from installation files download PHP and unzip the contents into c:\PHP. click link provided. Once clicked it should open a new web browser automatically. Press the download icon on the top right, next to blue sign in logo. Once done, go back to downlaods tab in my computer. Right click the PHP 7.3.8file and press extract all. Once done, hit the browse button for destination. Click this PC, C-drive, PHP, Select folder, and then press extract. 
+Go to the c windows c drive tab. Right-click and open a new folder and call it PHP. From the installation files link above, download PHP and unzip the contents into c:\PHP. Once clicked it should open a new web browser automatically. Press the download icon on the top right, next to a blue sign-in logo. Once done, go back to the downloads tab on my computer. Right-click the PHP 7.3.8 file and press extract all. Once done, hit the browse button for the destination. Click this PC, C-drive, PHP, Select the folder, and press extract. 
 </p>
 <br />
 
@@ -69,7 +69,7 @@ Go to c windows c drive tab. Right click and open new folder and call it PHP. fr
 <p>
 VC_REDIST DOWNLOAD
   
-From the installation file link above, click download and install VC_Redist. Once done, go back to downloads on my computer and click the VC_Redist file. Agree with any terms and agreements and finish intalling. the following downloads in the download folder should look like the image above. 
+From the installation file link above, click download and install VC_Redist. Once done, go back to downloads on my computer and click the VC_Redist file. Agree with any terms and agreements and finish installing. The following downloads in the download folder should look like the image above. 
   
 </p>
 <br />
@@ -80,10 +80,11 @@ From the installation file link above, click download and install VC_Redist. Onc
 <p>
 Downloading MySQL 
   
-From the installation files, download and install my SQL 5.5.62. Go back to downloads & click the MySQL file. Click finish, press next, click standard configuration, click next until you get to password. Your username will be Root, Then Create a password. Press next and then execute.
+From the installation files, download and install my SQL 5.5.62. Go back to downloads & click the MySQL file. Click finish, press next, click standard configuration, and click next until you get to the password. Your username will be Root, then Create a password. Press next and then execute.
 (My SQL CREATES A DATABASE FOR YOU TO STORE TICKETS ON for osTicket.
 
 CONFIGURATION OF IIS IS BELOW  
+  
 Opening IIS As admin. Register PHP from within IIS
 INSTALL OSTicket
 Open windows Tab bottom left 
