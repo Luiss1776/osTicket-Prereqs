@@ -129,7 +129,7 @@ Finally, We will now adjust the permissions, so anybody can adjust the file the 
 <img src="https://i.imgur.com/ovL9d46.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-osTicket SIGN-UP
+osTicket Sign-up
   
 
 Fill out any information needed to make an osTicket account. Make sure to write down the osTicket information you may fill out to create any accounts. Before we continue, we need to set up our database in Heidi SQL. 
