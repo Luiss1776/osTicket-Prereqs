@@ -36,9 +36,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 Enabling IIS 
 
-By enabling IIS, We will first hit the bottom left windows tab & open the Conrtroll section. We will then go to programs and click, "Turn windows feature on or off." Once Clicking, find the, "Internet Information Services, expand it, Then expand the world wide web tab. Finally, Expand application Developer tab. Finally, Check the CGI button & Press Ok. You will need CGI to download the PHP Manager. The PHP manager is a back end web programming language that allows osTicket to run off a web browser. 
+By enabling IIS, We will first hit the bottom left windows tab & open the Control section. We will then go to programs and click, "Turn windows feature on or off." Once Clicking, find the "Internet Information Services, expand it, Then expand the world wide web tab. Finally, Expand the application Developer tab. Finally, Check the CGI button & Press Ok. You will need CGI to download the PHP Manager. The PHP manager is a back-end web programming language that allows osTicket to run off a web browser. 
   
-We will now download the "PHP manager for IIS" by using the link provided above. Start by clicking, "Download PHP manager," it will automatically open a new web browser. Hit the download button. When done, the file will be in your download tabs in the c-drive of my computer. Download the PHP manager file, and agree with all the terms. We have now downloaded the PHP manager into our operating system.  
+We will now download the "PHP manager for IIS" by using the link provided above. Start by clicking, "Download PHP manager," it will automatically open a new web browser. Hit the download button. When done, the file will be in your download tabs on the c-drive of my computer. Download the PHP manager file, and agree with all the terms. We have now downloaded the PHP manager into our operating system.   
 </p>
 <br />
 
@@ -48,7 +48,7 @@ We will now download the "PHP manager for IIS" by using the link provided above.
 <p>
 REWRITE MODULE 
 
-Go back to link provided. Click link to install rewrite module and download it should open in a new browser automatically. Press Download anyways once it’s finished Loading. Once installed go to downloads tab in windows Find rewrite module  in the downloads tab. Accept with terms, & install, press finished 
+Go back to the link provided. Click the link to install the rewrite module and download it. The link should open in a new browser automatically. If any pop-ups occur, press download anyways. Once installed, go to the downloads tab in file explorer and find the rewrite module inside the downloads tab. Accept the terms, install, and press finished. When done the rewrite module will successfully be installed. 
 </p>
 <br />
 
