@@ -46,7 +46,7 @@ We will now download the "PHP manager for IIS" by using the link provided above.
 <img src="https://i.imgur.com/pmwpPEu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-REWRITE MODULE 
+Rewrite Module 
 
 Go back to the link provided. Click the link to install the rewrite module and download it. The link should open in a new browser automatically. If any pop-ups occur, press download anyways. Once installed, go to the downloads tab in file explorer and find the rewrite module inside the downloads tab. Accept the terms, install, and press finished. When done the rewrite module will successfully be installed. 
 </p>
@@ -56,7 +56,7 @@ Go back to the link provided. Click the link to install the rewrite module and d
 <img src="https://i.imgur.com/ws1wlka.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-CREATING DIRECTORY C:\PHP 
+Create Directory C:\PHP 
 
 Go to the c windows c drive tab. Right-click and open a new folder and call it PHP. From the installation files link above, download PHP and unzip the contents into c:\PHP. Once clicked it should open a new web browser automatically. Press the download icon on the top right, next to a blue sign-in logo. Once done, go back to the downloads tab on my computer. Right-click the PHP 7.3.8 file and press extract all. Once done, hit the browse button for the destination. Click this PC, C-drive, PHP, Select the folder, and press extract. 
 </p>
@@ -67,7 +67,7 @@ Go to the c windows c drive tab. Right-click and open a new folder and call it P
 <img src="https://i.imgur.com/Gx8ryBV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-VC_REDIST DOWNLOAD
+VC_REDIST Download
   
 From the installation file link above, click download and install VC_Redist. Once done, go back to downloads on my computer and click the VC_Redist file. Agree with any terms and agreements and finish installing. The following downloads in the download folder should look like the image above. 
   
@@ -78,12 +78,12 @@ From the installation file link above, click download and install VC_Redist. Onc
 <img src="https://i.imgur.com/IVpLg40.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Downloading MySQL 
+Download MySQL 
   
 From the installation files, download and install my SQL 5.5.62. Go back to downloads & click the MySQL file. Click finish, press next, click standard configuration, and click next until you get to the password. Your username will be Root, then Create a password. Press next and then execute.
 (My SQL CREATES A DATABASE FOR YOU TO STORE TICKETS ON for osTicket.
 
-CONFIGURATION OF IIS IS BELOW  
+*CONFIGURATION OF IIS IS BELOW  
   
 Opening IIS As admin. Register PHP from within IIS,
 INSTALL OSTicket,
@@ -102,7 +102,7 @@ Press done or Ok.
 <img src="https://i.imgur.com/9Bc5nfC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-DOWNLOADING osTicket 
+Download osTicket 
 
 Download osTicket from the installation files. Copy and extract the upload folder into the c:\inetpub\wwwroot, and rename the “upload file” to "osTicket. Opening the downloads folder, open two file explorer folders next to each other. On one of the file explorer folders, you will want to open, This Pc, followed by Windows C:, Inetpub, and then wwwroot. On the other File explorer tab you will want to open, this PC, Downloads, osTicket, and drag the “Upload” folder over to the other file Explorer tab to create a new file into the wwwroot. Next, rename the upload file from wwwroot to osTicket. Once renamed, go back to IIS and restart the server.
 </p>
@@ -112,7 +112,7 @@ Download osTicket from the installation files. Copy and extract the upload folde
 <img src="https://i.imgur.com/l7MPg1A.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Configuring the IIS permissions. 
+Configure the IIS permissions. 
   
 GGo to sites inside IIS default. Default osTicket On the left-hand side. Expand sites, default, and then the osTicket, on the right we will click browse *80. Once clicked you will be redirected to the osTicket web browser. Next step, notice extensions are not enabled with the red  ❌ , X’s. so we’re going to enable these permissions inside of IIS and make them work. Go back to IIS, go to sites, default website, OsTicket, and click the PHP manager
   
@@ -136,11 +136,11 @@ Fill out any information needed to make an osTicket account. Make sure to write 
 
 In the files download link above, we will download Heidi SQL. Once downloaded you will continue to press next until the final installation. Once installed we will create a new database for Heidi by clicking the green tab at the bottom left of the Heidi browser. Sign in with your, "mySQL username' and "password" created from mySQL in the previous steps and press open. We will need to create a new database for osTicket. Inside the HeidiSQL on the top left, right-click the “unnamed” tab and scroll down to 'create new", and click “database.”  We will name the new database, "osTicket" and press ok. Your new database is now ready to go and to be typed into the osTicket web browser page of osTicket. When done press “install now” and your account will be made for osTicket. 
 
-FINAL STEPS FOR CLEANUP
+*FINAL STEPS FOR CLEANUP
 
 For cleanup, we will delete the c:\inetpub\wwwroot\osTicket\setup. By doing this we will go into the file explorer tab in my windows. Scroll to This PC, open windows C, open inetpub, open wwwroot, open osTicket, right-click the setup folder, and click delete. Lastly, we will set the permissions back to “read-only” in the ost-config.PHP file. Once done, we will go into the file explorer tab, go into this PC, windows C, inetpub, wwwroot, osTicket, the include folder, and right-click on the OST-Config.php file. Go to properties, and then security. Scroll down to the advance button and go to the "everyone file" and press edit. Once done, uncheck the boxes, Full control, modify and write. Press ok, apply, and then ok.
 
-We have now successfully installed the prerequisite for osTicket. 😊
+We've now successfully installed the prerequisite for osTicket. 😊
   
 🤓 Admin Login Link: http://localhost/osTicket/scp/login.php
   (To add and change things)
