@@ -46,7 +46,7 @@ We will now download the "PHP manager for IIS" by using the link provided above.
 <img src="https://i.imgur.com/pmwpPEu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Rewrite Module 
+REWRITE MODULE 
 
 Go back to the link provided. Click the link to install the rewrite module and download it. The link should open in a new browser automatically. If any pop-ups occur, press download anyways. Once installed, go to the downloads tab in file explorer and find the rewrite module inside the downloads tab. Accept the terms, install, and press finished. When done the rewrite module will successfully be installed. 
 </p>
@@ -56,7 +56,7 @@ Go back to the link provided. Click the link to install the rewrite module and d
 <img src="https://i.imgur.com/ws1wlka.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create Directory C:\PHP 
+CREATE DIRECTORY C:\PHP 
 
 Go to the c windows c drive tab. Right-click and open a new folder and call it PHP. From the installation files link above, download PHP and unzip the contents into c:\PHP. Once clicked it should open a new web browser automatically. Press the download icon on the top right, next to a blue sign-in logo. Once done, go back to the downloads tab on my computer. Right-click the PHP 7.3.8 file and press extract all. Once done, hit the browse button for the destination. Click this PC, C-drive, PHP, Select the folder, and press extract. 
 </p>
@@ -67,7 +67,7 @@ Go to the c windows c drive tab. Right-click and open a new folder and call it P
 <img src="https://i.imgur.com/Gx8ryBV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-VC_REDIST Download
+VC_REDIST DOWNLOAD
   
 From the installation file link above, click download and install VC_Redist. Once done, go back to downloads on my computer and click the VC_Redist file. Agree with any terms and agreements and finish installing. The following downloads in the download folder should look like the image above. 
   
@@ -78,7 +78,7 @@ From the installation file link above, click download and install VC_Redist. Onc
 <img src="https://i.imgur.com/IVpLg40.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download MySQL 
+DOWNLOAD MySQL 
   
 From the installation files, download and install my SQL 5.5.62. Go back to downloads & click the MySQL file. Click finish, press next, click standard configuration, and click next until you get to the password. Your username will be Root, then Create a password. Press next and then execute.
 (My SQL CREATES A DATABASE FOR YOU TO STORE TICKETS ON for osTicket.
@@ -102,7 +102,7 @@ Press done or Ok.
 <img src="https://i.imgur.com/9Bc5nfC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download osTicket 
+DOWNLOAD osTicket 
 
 Download osTicket from the installation files. Copy and extract the upload folder into the c:\inetpub\wwwroot, and rename the “upload file” to "osTicket. Opening the downloads folder, open two file explorer folders next to each other. On one of the file explorer folders, you will want to open, This Pc, followed by Windows C:, Inetpub, and then wwwroot. On the other File explorer tab you will want to open, this PC, Downloads, osTicket, and drag the “Upload” folder over to the other file Explorer tab to create a new file into the wwwroot. Next, rename the upload file from wwwroot to osTicket. Once renamed, go back to IIS and restart the server.
 </p>
@@ -120,7 +120,7 @@ Double click PHP manager, bottom link click to enable or disable an extension hi
 
 Furthermore, We will now rename the ost-config.php file! We will go to file explorer at the bottom of the windows bar. Go into the wwwroot, click osTicket, and scroll down to the include folder. Open it and scroll down to the ost-sampleconfig.php folder. We will rename this folder and just simply erase the sample part
 
-Finally, We will now adjust the permissions, so anybody can adjust the file the way they want to. We will right-click the Ost-config file and go to properties, go to security, go to advance, and then will just disable inheritance so it stops inheriting permissions from its parent, and then will remove all permissions and we’re going to add permissions. Click Select a principal. In the box, we will type “everyone” click check names, and press OK.  Once done we will the check mark box next to, “full control” and press ok, apply ok, and ok. Ost-config now everyone has permission to it.
+Finally, adjust the permissions so anybody can adjust the file. Right-click the Ost-config file and go to properties, then security, scroll to advance, and then disable inheritance so it stops inheriting permissions from its parent. Remove all permissions and we’re going to add permissions. Click Select a principal. In the box, we will type “everyone” click check names, and press OK.  Once done we will the check mark box next to, “full control” and press ok, apply ok, and ok. Ost-config now everyone has permission to it.
 
 </p>
 <br />
