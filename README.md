@@ -48,7 +48,7 @@ We will now download the "PHP manager for IIS" by using the link provided above.
 <p>
 REWRITE MODULE 
 
-Go back to the link provided. Click the link to install the rewrite module and download it. The link should open in a new browser automatically. If any pop-ups occur, press download anyways. Once installed, go to the downloads tab in file explorer and find the rewrite module inside the downloads tab. Accept the terms, install, and press finished. When done the rewrite module will successfully be installed. 
+Go back to the Installation File link provided above. Click the link and install the rewrite module. Frome there, the link should open in a new browser automatically. If any pop-ups occur, press download anyways. Once installed, go to the downloads tab in the file explorer and find the rewrite module inside the downloads tab. Accept the terms, install, and press finished. When done, the rewrite module will successfully be installed. 
 </p>
 <br />
 
