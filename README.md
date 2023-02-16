@@ -36,7 +36,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 ENABLING IIS
 
-By enabling IIS, We will first hit the bottom left windows tab & open the Control section. We will then go to programs and click, "Turn windows feature on or off." Once Clicking, find the "Internet Information Services, expand it, Then expand the world wide web tab. Finally, Expand the application Developer tab. Finally, Check the CGI button & Press Ok. You will need CGI to download the PHP Manager. The PHP manager is a back-end web programming language that allows osTicket to run off a web browser. 
+By enabling IIS, we will first hit the left bottom Windows icon & open the Control section. Thereafter, go to programs and click the, "Turn windows feature on or off" button. Once clicked, find the "Internet Information Services" expand it and then expand the, "World Wide Web" tab. Afterwards, expand the application Developer tab. Finally check the, "CGI" button & press Ok. You will need CGI to download the PHP Manager. The PHP manager is a back-end web programming language that allows osTicket to run off a web browser. 
   
 We will now download the "PHP manager for IIS" by using the link provided above. Start by clicking, "Download PHP manager," it will automatically open a new web browser. Hit the download button. When done, the file will be in your download tabs on the c-drive of my computer. Download the PHP manager file, and agree with all the terms. We have now downloaded the PHP manager into our operating system.   
 </p>
